@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Selenide.open;
 
 public class GithabSelenideTest {
     @Test
-void SelenideTest() {
+void selenideTest() {
 
     open("https://github.com/selenide/selenide");
     $("#wiki-tab").click ();
